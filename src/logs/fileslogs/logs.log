@@ -1,0 +1,1 @@
+{"fecha":"2022-03-11T22:06:09.804Z","nivel":"error","mensaje":"Unexpected end of JSON input","stack":[{"error1":"at JSON.parse (<anonymous>)","error2":"at Todo.startDb (C:\\node\\cursoreact\\bancocontinental\\todo-api\\src\\models\\Todo.models.js:27:30)","error3":"at new Todo (C:\\node\\cursoreact\\bancocontinental\\todo-api\\src\\models\\Todo.models.js:11:14)"}]}
