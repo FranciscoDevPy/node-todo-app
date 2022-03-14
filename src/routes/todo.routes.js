@@ -17,7 +17,7 @@ router.post('/',
     [
         check('todo', 'The todo field is required').notEmpty(),
         validateRequest,
-        check('todo', 'The task can only contain 50 characters').isLength(1,50),
+        check('todo', 'The task can only contain 50 characters').isLength({ min: 1, max: 50 }),
         validateRequest
     ],
     createTodo
