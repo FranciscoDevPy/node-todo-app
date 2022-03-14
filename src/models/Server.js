@@ -25,9 +25,7 @@ class Server
         }
 
         this.origin = {
-            origin: [
-                'http://localhost:'+process.env.APP_REACT_PORT,
-            ]
+            origin: '*'
         };
         
         this.paths = {
